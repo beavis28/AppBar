@@ -1,0 +1,4 @@
+C:\git\WpfAppBar\WpfAppBar\bin\Debug\WpfAppBar.dll
+C:\git\WpfAppBar\WpfAppBar\bin\Debug\WpfAppBar.pdb
+C:\git\WpfAppBar\WpfAppBar\obj\Debug\WpfAppBar.dll
+C:\git\WpfAppBar\WpfAppBar\obj\Debug\WpfAppBar.pdb

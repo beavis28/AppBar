@@ -1,0 +1,13 @@
+C:\git\WpfAppBar\AppBarExample\bin\Debug\AppBarExample.exe.config
+C:\git\WpfAppBar\AppBarExample\bin\Debug\AppBarExample.exe
+C:\git\WpfAppBar\AppBarExample\bin\Debug\AppBarExample.pdb
+C:\git\WpfAppBar\AppBarExample\bin\Debug\WpfAppBar.dll
+C:\git\WpfAppBar\AppBarExample\bin\Debug\WpfAppBar.pdb
+C:\git\WpfAppBar\AppBarExample\obj\Debug\AppBarExample.csprojResolveAssemblyReference.cache
+C:\git\WpfAppBar\AppBarExample\obj\Debug\MainWindow.baml
+C:\git\WpfAppBar\AppBarExample\obj\Debug\MainWindow.g.cs
+C:\git\WpfAppBar\AppBarExample\obj\Debug\App.g.cs
+C:\git\WpfAppBar\AppBarExample\obj\Debug\AppBarExample_MarkupCompile.cache
+C:\git\WpfAppBar\AppBarExample\obj\Debug\AppBarExample.g.resources
+C:\git\WpfAppBar\AppBarExample\obj\Debug\AppBarExample.exe
+C:\git\WpfAppBar\AppBarExample\obj\Debug\AppBarExample.pdb
