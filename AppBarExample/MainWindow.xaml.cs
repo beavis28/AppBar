@@ -53,6 +53,7 @@ namespace AppBarExample
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             // ... Load this site.
+            RakutenBrowser.Navigate("http://msg.websearch.rakuten.co.jp/view/LatestMsg?mv=3.1R");
         }
     }
 }
