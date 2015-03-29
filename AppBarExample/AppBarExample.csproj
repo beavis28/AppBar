@@ -57,6 +57,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Resources\GlassButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -72,6 +76,14 @@
       <Project>{86f999c7-4543-41de-8e6d-9ab41ac0ff8e}</Project>
       <Name>WpfAppBar</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\background.jpg" />
+    <Resource Include="images\g.jpg" />
+    <Resource Include="images\vista_flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\r.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\git\WpfAppBar\AppBarExample\obj\Debug\
+C:\git\AppBar\AppBarExample\obj\Debug\
 AppBarExample
 none
 false
 DEBUG;TRACE
-C:\git\WpfAppBar\AppBarExample\App.xaml
-11151548125
+C:\git\AppBar\AppBarExample\App.xaml
+2219326408
 
 2-297990610
-9-1239025096
-MainWindow.xaml;
+9-2009121966
+MainWindow.xaml;Resources\GlassButton.xaml;
 
 False
 

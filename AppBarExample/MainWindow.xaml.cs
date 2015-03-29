@@ -41,5 +41,18 @@ namespace AppBarExample
             }
             
         }
+
+        private void FrameMovable(object sender, MouseButtonEventArgs e)
+        {
+            if (appBar == false)
+            {
+                this.DragMove();
+            }
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            // ... Load this site.
+        }
     }
 }
