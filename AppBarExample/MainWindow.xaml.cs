@@ -48,8 +48,20 @@ namespace RakutenDesktop
             }
             else if (e.Key == Key.Right) 
             {
-
+                PopupButton.StaysOpen = true;
+                PopupButton.IsOpen = true;
             }
+        }
+
+        void BringPopup(object sender, MouseEventArgs e)
+        {
+            PopupButton.StaysOpen = true;
+            PopupButton.IsOpen = true;
+        }
+
+        void ClearPopup(object sender, MouseEventArgs e)
+        {
+            disappearPopup();
         }
 
         private void RakutenWebSearch(string text)
@@ -78,6 +90,13 @@ namespace RakutenDesktop
             {
                 this.DragMove();
             }
+            disappearPopup();
+        }
+
+        private void disappearPopup()
+        {
+            PopupButton.StaysOpen = false;
+            PopupButton.IsOpen = false;
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
