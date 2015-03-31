@@ -104,5 +104,15 @@ namespace RakutenDesktop
             // ... Load this site.
             //RakutenBrowser.Navigate("http://msg.websearch.rakuten.co.jp/view/LatestMsg?mv=3.1R");
         }
+
+        private void IchibaClick(object sender, RoutedEventArgs e)
+        {
+            this.RakutenBorder.Background = new ImageBrush(new BitmapImage(new Uri(BaseUriHelper.GetBaseUri(this), "images/ichiba.jpg")));
+        }
+
+        private void RecipeClick(object sender, RoutedEventArgs e)
+        {
+            this.RakutenBorder.Background = new ImageBrush(new BitmapImage(new Uri(BaseUriHelper.GetBaseUri(this), "images/b.jpg")));
+        }
     }
 }

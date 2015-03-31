@@ -16,7 +16,7 @@
     <!--<Window.Background>
         <ImageBrush ImageSource="images\g.jpg"/>
     </Window.Background>-->
-    <Border BorderBrush="Transparent"
+    <Border x:Name="RakutenBorder" BorderBrush="Transparent"
             BorderThickness="0,0,0,0"
             CornerRadius="15">
         <Border.Background>
@@ -51,8 +51,8 @@
             <Ellipse x:Name="FloatingSwitch" Grid.Row="0" Grid.Column="2" Margin="20,5,0,5" Fill="Transparent" Width="30" Height="30" MouseMove="BringPopup"/>
             <Popup x:Name="PopupButton" PopupAnimation="Fade" Placement="Relative" AllowsTransparency="True" HorizontalOffset="250" VerticalOffset="0">
                 <StackPanel>
-                    <Button Margin="3" Width="100" Background="Red">楽天市場検索</Button>
-                    <Button Margin="3" Width="100" Background="Yellow">レシピ検索</Button>
+                    <Button Margin="3" Width="100" Content="楽天市場検索" Background="Red" Click="IchibaClick"></Button>
+                    <Button Margin="3" Width="100" Content="レシピ検索" Background="Yellow" Click="RecipeClick"></Button>
                 </StackPanel>
             </Popup>
         </Grid>
