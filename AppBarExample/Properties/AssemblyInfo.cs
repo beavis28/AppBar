@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("AppBarExample")]
+[assembly: AssemblyTitle("RakutenDesktop")]
 [assembly: AssemblyDescription("Example for creating a Windows AppBar with WPF")]
 [assembly: AssemblyCompany("Philip Rieck")]
 [assembly: AssemblyProduct("WpfAppBar")]
